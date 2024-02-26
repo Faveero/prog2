@@ -45,3 +45,9 @@ body{
 .estudante-imagem{
     width: 120px;
 }
+.estudante-icone{
+    width: 12px;
+}
+.estudante-div{
+    text-align: center;
+}
