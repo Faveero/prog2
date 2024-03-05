@@ -5,57 +5,58 @@ header{ /*classe cabecalho criada no HTML*/
 body{ /*fonte utilizada em todo texto da página*/
     font-family: "Poppins", sans-serif; /*estilo da fonte*/
 }
-.cabecalho-imagem{ 
+.cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 25%; /*largura da imagem do cabeçalho*/
 }
-.cabecalho{
+.cabecalho{ /*classe cabecalho no HTML*/
     background-color: #383d58; 
     color: white;
     display: flex; /*organiza os elementos lado a lado, só muda de linha se ocupar todo o espaço*/
     justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elemtnos da linha*/
     padding: 24px 0; /*espaçamento interno, considera as bordas do proprio elemento*/
 }
-.cabecalho-lista-item{
+.cabecalho-lista-item{ /*classe cabecalho-lista-item no HTML*/
     display: inline-block; /*define que o elemento deve ocupar apenas o espaço suficiente para que ele seja exibido*/
-    margin: 0 16px; /*espaçamento externo, considera as bordas da tela e as bordas externas dos demais elementos*/
-    padding: 16px 0; /*16 pixels nas margens de cima e de baixo, nenhum na direita e esquerda do elemento*/
+    margin: 0 16px; /*espaçamento externo, considera as bordas da tela e as bordas externas dos demais elementos; nenhum espaçamento nas margens de cima e baixo, 16 pixels de espaçamento na esquerda e direita do elemento*/
+    padding: 16px 0; /*define o espaço entre a borda de um elemento e o conteúdo do elemento; 16 pixels nas margens de cima e de baixo, nenhum na direita e esquerda do elemento*/
     font-size: 24px; /*tamanho da fonte*/
 }
-*{
+*{ /* *define para todo documento HTML as propriedades que forem adicionadas a ele. Neste caso, adicionaremos o valor 0 para margin e padding*/
     margin: 0;
     padding: 0;
 }
-.escola-imagem{
+/*Agora, podemos adicionar padding e margin individuais para cada elemento*/
+.escola-imagem{ /*classe escola-imagem no HTML*/
     width: 25%;
 }
-.escola{
+.escola{ /*classe escola no HTML*/
     background-image: linear-gradient(#383d58, #00c0eb); /*imagem de fundo*/
     color: white;
     display: flex;
     justify-content: center;
     align-items: center; /*alinhamento dos elementos: centro*/
-    padding: 24px 0;
+    padding: 24px 0; /*24 pixels nas margens de cima e de baixo, nenhum na direita e esquerda do elemento*/
 }
-.escola-conteudo{
+.escola-conteudo{ /*classe escola-conteudo no HTML*/
     width: 35%;
 }
-.escola-titulo{
-    padding: 24px 0;
+.escola-titulo{ /*classe escola-titulo no HTML*/
+    padding: 24px 0; /*24 pixels nas margens de cima e de baixo, nenhum na direita e esquerda do elemento*/
 }
-.estudante-imagem{
+.estudante-imagem{ /*classe estudante-imagem no HTML*/
     width: 120px;
 }
-.estudante-icone{
+.estudante-icone{ /*classe estudante-icone no HTML*/
     width: 12px;
 }
-.estudante-div{
+.estudante-div{ /*classe estudante-div no HTML*/
     text-align: center; /*alinhamento do texto: centro*/
 }
-.estudante-titulo{
+.estudante-titulo{ /*classe estudante-titulo no HTML*/
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0; /*50 pixels nas margens de cima e de baixo, nenhum na direita e esquerda do elemento*/
 }
-.estudante-todos{
+.estudante-todos{ /*classe estudante-todos no HTML*/
     display: grid; /*organiza os elementos como se fosse uma tabela*/
     grid-template-columns: 20% 20% 20% 20%; /*4 colunas, cada uma ocupa 20% da tela*/
 }
