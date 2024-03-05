@@ -1,15 +1,15 @@
-header{
-    background-color: #383d58;
-    color: white;
+header{ /*classe cabecalho criada no HTML*/
+    background-color: #383d58; /*cor do fundo*/
+    color: white; /*cor da fonte*/
 }
-body{
-    font-family: "Poppins", sans-serif;
+body{ /*fonte utilizada em todo texto da página*/
+    font-family: "Poppins", sans-serif; /*estilo da fonte*/
 }
-.cabecalho-imagem{
-    width: 25%;
+.cabecalho-imagem{ 
+    width: 25%; /*tamanho da imagem do cabeçalho*/
 }
 .cabecalho{
-    background-color: #383d58;
+    background-color: #383d58; 
     color: white;
     display: flex;
     justify-content: space-around;
