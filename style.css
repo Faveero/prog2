@@ -6,20 +6,20 @@ body{ /*fonte utilizada em todo texto da página*/
     font-family: "Poppins", sans-serif; /*estilo da fonte*/
 }
 .cabecalho-imagem{ 
-    width: 25%; /*tamanho da imagem do cabeçalho*/
+    width: 25%; /*largura da imagem do cabeçalho*/
 }
 .cabecalho{
     background-color: #383d58; 
     color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px 0;
+    display: flex; /*organiza os elementos lado a lado, só muda de linha se ocupar todo o espaço*/
+    justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elemtnos da linha*/
+    padding: 24px 0; /*espaçamento interno, considera as bordas do proprio elemento*/
 }
 .cabecalho-lista-item{
-    display: inline-block;
-    margin: 0 16px;
-    padding: 16px 0;
-    font-size: 24px;
+    display: inline-block; /*define que o elemento deve ocupar apenas o espaço suficiente para que ele seja exibido*/
+    margin: 0 16px; /*espaçamento externo, considera as bordas da tela e as bordas externas dos demais elementos*/
+    padding: 16px 0; /*16 pixels nas margens de cima e de baixo, nenhum na direita e esquerda do elemento*/
+    font-size: 24px; /*tamanho da fonte*/
 }
 *{
     margin: 0;
@@ -29,11 +29,11 @@ body{ /*fonte utilizada em todo texto da página*/
     width: 25%;
 }
 .escola{
-    background-image: linear-gradient(#383d58, #00c0eb);
+    background-image: linear-gradient(#383d58, #00c0eb); /*imagem de fundo*/
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /*alinhamento dos elementos: centro*/
     padding: 24px 0;
 }
 .escola-conteudo{
@@ -49,13 +49,13 @@ body{ /*fonte utilizada em todo texto da página*/
     width: 12px;
 }
 .estudante-div{
-    text-align: center;
+    text-align: center; /*alinhamento do texto: centro*/
 }
 .estudante-titulo{
     text-align: center;
     padding: 50px 0;
 }
 .estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    display: grid; /*organiza os elementos como se fosse uma tabela*/
+    grid-template-columns: 20% 20% 20% 20%; /*4 colunas, cada uma ocupa 20% da tela*/
 }
