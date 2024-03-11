@@ -60,3 +60,12 @@ body{ /*fonte utilizada em todo texto da página*/
     display: grid; /*organiza os elementos como se fosse uma tabela*/
     grid-template-columns: 20% 20% 20% 20%; /*4 colunas, cada uma ocupa 20% da tela*/
 }
+
+footer{
+    background-color: black;
+    padding: 15px 0;
+    text-align: center;
+}
+.rodape-imagem{
+    
+}
