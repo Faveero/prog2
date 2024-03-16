@@ -6,7 +6,7 @@ body{ /*fonte utilizada em todo texto da página*/
     font-family: "Poppins", sans-serif; /*estilo da fonte*/
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
-    width: 25%; /*largura da imagem do cabeçalho*/
+    width: 15%; /*largura da imagem do cabeçalho*/
 }
 .cabecalho{ /*classe cabecalho no HTML*/
     background-color: #383d58; 
