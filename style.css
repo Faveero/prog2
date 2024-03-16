@@ -63,10 +63,10 @@ body{ /*fonte utilizada em todo texto da página*/
 
 footer{
     background-color: black;
-    padding: 5px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
 .rodape-imagem{
-    width: 80px;
+    width: 100px;
 }
