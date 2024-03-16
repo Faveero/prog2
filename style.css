@@ -15,13 +15,15 @@ body{ /*fonte utilizada em todo texto da página*/
     justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elemtnos da linha*/
     padding: 24px 0; /*espaçamento interno, considera as bordas do proprio elemento*/
 }
-.cabecalho-lista-item ul:hover{ /*classe cabecalho-lista-item no HTML*/
+.cabecalho-lista-item{ /*classe cabecalho-lista-item no HTML*/
     display: inline-block; /*define que o elemento deve ocupar apenas o espaço suficiente para que ele seja exibido*/
     margin: 0 16px; /*espaçamento externo, considera as bordas da tela e as bordas externas dos demais elementos; nenhum espaçamento nas margens de cima e baixo, 16 pixels de espaçamento na esquerda e direita do elemento*/
     padding: 16px 0; /*define o espaço entre a borda de um elemento e o conteúdo do elemento; 16 pixels nas margens de cima e de baixo, nenhum na direita e esquerda do elemento*/
     font-size: 24px; /*tamanho da fonte*/
-    color:aqua;
 
+}
+.cabecalho-lista-item ul:hover{
+    color:aquamarine;
 }
 *{ /* *define para todo documento HTML as propriedades que forem adicionadas a ele. Neste caso, adicionaremos o valor 0 para margin e padding*/
     margin: 0;
