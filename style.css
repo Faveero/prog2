@@ -7,6 +7,7 @@ body{ /*fonte utilizada em todo texto da página*/
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 10%; /*largura da imagem do cabeçalho*/
+    height: 5%;
 }
 .cabecalho{ /*classe cabecalho no HTML*/
     background-color: #383d58; 
