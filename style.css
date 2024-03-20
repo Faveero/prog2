@@ -8,8 +8,8 @@ body{ /*fonte utilizada em todo texto da página*/
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 15%; /*largura da imagem do cabeçalho*/
     height: 15%;
-    margin: 0 16px;
-    padding: 16px 0;
+    margin: 0 18px;
+    padding: 18px 0;
 }
 .cabecalho{ /*classe cabecalho no HTML*/
     background-color: #383d58; 
