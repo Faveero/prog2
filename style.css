@@ -33,7 +33,7 @@ body{ /*fonte utilizada em todo texto da página*/
 /*Agora, podemos adicionar padding e margin individuais para cada elemento*/
 .escola-imagem{ /*classe escola-imagem no HTML*/
     width: 25%;
-    margin: 10%;
+    margin-right: 5%;
 }
 .escola{ /*classe escola no HTML*/
     background-image: linear-gradient(#383d58, #00c0eb); /*imagem de fundo*/
