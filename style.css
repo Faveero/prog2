@@ -78,3 +78,6 @@ footer{
 .rodape-imagem{
     width: 100px;
 }
+#cabecalho-lista-iitem li:hover{
+    color: rgb(239, 6, 227);
+}
