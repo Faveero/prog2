@@ -9,7 +9,7 @@ body{ /*fonte utilizada em todo texto da página*/
     width: 15%; /*largura da imagem do cabeçalho*/
     height: 15%;
     margin: 0 30px;
-    padding: 18px 0;
+    padding: 30px 0;
 }
 .cabecalho{ /*classe cabecalho no HTML*/
     background-color: #383d58; 
