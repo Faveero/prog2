@@ -11,6 +11,7 @@ body{ /*fonte utilizada em todo texto da página*/
     height: 15%;
     margin: 20px 50px;
     padding: 18px 40px;
+    background-image: image(alurastart.png);
 }
 .cabecalho{ /*classe cabecalho no HTML*/
     background-color: #383d58; 
