@@ -4,6 +4,7 @@ header{ /*classe cabecalho criada no HTML*/
 }
 body{ /*fonte utilizada em todo texto da página*/
     font-family: "Poppins", sans-serif; /*estilo da fonte*/
+    background-color: #00c0eb;
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 15%; /*largura da imagem do cabeçalho*/
