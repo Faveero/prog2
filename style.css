@@ -1,5 +1,5 @@
 header{ /*classe cabecalho criada no HTML*/
-    /*background-color: #383d58; /*cor do fundo*/
+    background-color: #383d58; /*cor do fundo*/
     color: white; /*cor da fonte*/
 }
 body{ /*fonte utilizada em todo texto da página*/
@@ -10,7 +10,7 @@ body{ /*fonte utilizada em todo texto da página*/
     width: 15%; /*largura da imagem do cabeçalho*/
     height: 15%;
     margin: 20px 50px;
-    /*padding: 18px 40px;
+    /*padding: 18px 40px;*/
 }
 .cabecalho{ /*classe cabecalho no HTML*/
     background-color: #383d58; 
