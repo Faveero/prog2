@@ -70,12 +70,12 @@ body{ /*fonte utilizada em todo texto da página*/
     grid-template-columns: 20% 20% 20% 20%; /*4 colunas, cada uma ocupa 20% da tela*/
 }
 
-footer{
+footer{ /*caracteristicas do rodape*/
     background-color: black;
     padding: 10px 0;
     text-align: center;
 }
 
-.rodape-imagem{
+.rodape-imagem{ /*tamanho da imagem do rodape*/
     width: 100px;
 }
