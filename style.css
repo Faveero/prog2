@@ -16,7 +16,7 @@ body{ /*fonte utilizada em todo texto da página*/
     background-color: #383d58; 
     color: white;
     display: flex; /*organiza os elementos lado a lado, só muda de linha se ocupar todo o espaço*/
-    justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elemtnos da linha*/
+    justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elementos da linha*/
     padding: 24px 0; /*espaçamento interno, considera as bordas do proprio elemento*/
 }
 .cabecalho-lista-item{ /*classe cabecalho-lista-item no HTML*/
