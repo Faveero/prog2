@@ -5,8 +5,6 @@ header{ /*classe cabecalho criada no HTML*/
 body{ /*fonte utilizada em todo texto da página*/
     font-family: "Poppins", sans-serif; /*estilo da fonte*/
     background-color: #00c0eb;
-    background-image: url(bob.png);
-    background-repeat: no-repeat;
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
     width: 15%; /*largura da imagem do cabeçalho*/
@@ -15,7 +13,7 @@ body{ /*fonte utilizada em todo texto da página*/
     padding: 18px 40px;
 }
 .cabecalho{ /*classe cabecalho no HTML*/
-    /*background-color: #383d58; */
+    background-color: #383d58; 
     color: white;
     display: flex; /*organiza os elementos lado a lado, só muda de linha se ocupar todo o espaço*/
     justify-content: space-around; /*justifica o conteúdo, space-around=espaço ao redor, cria margens iguais entre os elemtnos da linha*/
@@ -41,7 +39,7 @@ body{ /*fonte utilizada em todo texto da página*/
     margin-left: 10%;
 }
 .escola{ /*classe escola no HTML*/
-   /* background-image: linear-gradient(#383d58, #00c0eb); /*imagem de fundo*/
+    background-image: linear-gradient(#383d58, #00c0eb); /*imagem de fundo*/
     color: white;
     display: flex;
     justify-content: center;
