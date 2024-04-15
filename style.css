@@ -3,7 +3,7 @@ header{ /*classe cabecalho criada no HTML*/
     color: white; /*cor da fonte*/
 }
 body{ /*fonte utilizada em todo texto da página*/
-    font-family: "Mate SC", serif; /*estilo da fonte*/
+    font-family: "Geostar Fill", serif; /*estilo da fonte*/
     background-color: #00c0eb;
 }
 .cabecalho-imagem{ /*classe cabecalho-imagem no HTML*/
