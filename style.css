@@ -26,7 +26,7 @@ body{ /*fonte utilizada em todo texto da página*/
     font-size: 24px; /*tamanho da fonte*/
 
 }
-.cabecalho-lista-item li:hover{
+.cabecalho-lista-item li:hover{ /*cor que muda quando passa o mouse em cima do Estudantes e Escola*/
     color:aquamarine;
 }
 *{ /* *define para todo documento HTML as propriedades que forem adicionadas a ele. Neste caso, adicionaremos o valor 0 para margin e padding*/
