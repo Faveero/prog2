@@ -55,9 +55,9 @@ body{ /*fonte utilizada em todo texto da página*/
 .estudante-imagem{ /*classe estudante-imagem no HTML*/
     width: 120px;
 }
-.estudante-icone{ /*classe estudante-icone no HTML*/
-    width: 12px;
-}
+/*.estudante-icone{ /*classe estudante-icone no HTML*/
+    /*width: 12px;*/
+/*}*/
 .estudante-div{ /*classe estudante-div no HTML*/
     text-align: center; /*alinhamento do texto: centro*/
 }
